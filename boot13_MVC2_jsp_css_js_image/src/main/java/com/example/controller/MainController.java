@@ -9,7 +9,8 @@ public class MainController {
 	@GetMapping("/")
 	public String main() {
 		System.out.println("/ 주소 요청///////");
-		System.out.println("/ jenkins에서 자동적인 배포함");
+		System.out.println("/ jenkins에서 자동적인 배포함 ");
+		System.out.println("/ jenkins에서 자동적인 배포함2 ");
 		return "main";
 	}
 	@GetMapping("/loginForm")
